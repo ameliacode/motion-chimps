@@ -33,8 +33,10 @@ WAK ent. motion data preprocessing pipeline
 
 
 ### Team Frontend
-- Python + Kivy
-
+- Python
+- Kivy(GUI)
+- PyopenGL
+  
 ## 💁‍♀️ How to MotionBert
 
 MotionBERT는 단안카메라를 입력으로 두기 때문에 multi view와 다르게 epipolar geometry를 사용하지 X  
