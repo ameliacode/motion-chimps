@@ -4,7 +4,7 @@ WAK ent. motion data preprocessing pipeline
 
 ---
 
-## Plan
+## 📝 Plan
 
 - [ ] [SOTA - 3d pose estimation](https://github.com/davrempe/contact-human-dynamics): contact+physics-based
 - [ ] [SOTA - MotionBERT](https://github.com/Walter0807/MotionBERT)
@@ -12,19 +12,19 @@ WAK ent. motion data preprocessing pipeline
 - [ ] NPY to BVH [video2bvh](https://github.com/KevinLTT/video2bvh)
 - [ ] [fairmotion](https://github.com/facebookresearch/fairmotion)
 
-### Assignment 🎯 기존 모델(MotionBert)를 개선시키는 것이 관건
+#### Assignment 🎯 기존 모델(MotionBert)를 개선시키는 것이 관건
 - End Effector문제를 estimated 된 결과에서 어떻게 해결?
   - Physics-based(Contact and Human Dynamics from Monocular Video, HuMor)
 - Denoise: Estimation time을 고려한다면, Inverse Kinematics로 단순히 해결하거나, Motion DVAE와 같이 autoencoder로 해결
 - Motion editing: Motion/Time warping
 
-## Preliminary Keyword
+## 🔑 Preliminary Keyword
 - Pose estimation
 - Motion data extension: Bio Vision Hierarchy
 - Kinematics(Forward kinematics, Inverse Kinematics)
 - Transformer, Autoencoder
 
-## Onboarding
+## 🛳️ Onboarding
 
 ### Team AI
 - Local: Ubuntu(20.04 and up): 윈도우에서 하고자 한다면 가상환경 사용 권장 [참고](https://ingu627.github.io/tips/install_ubuntu/)
@@ -35,7 +35,7 @@ WAK ent. motion data preprocessing pipeline
 ### Team Frontend
 - Python + Kivy
 
-## How to MotionBert
+## 💁‍♀️ How to MotionBert
 
 MotionBERT는 단안카메라를 입력으로 두기 때문에 multi view와 다르게 epipolar geometry를 사용하지 X  
 따라서 2D pose estimation(via Alphapose) 후에 3D pose estimation(MotionBert)를 하게 됨  
