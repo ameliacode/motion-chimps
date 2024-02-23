@@ -27,7 +27,7 @@ WAK ent. motion data preprocessing pipeline
 ## 🛳️ Onboarding
 
 ### Team AI
-- Local: Ubuntu(20.04 and up): 윈도우에서 하고자 한다면 가상환경 사용 권장 [참고](https://ingu627.github.io/tips/install_ubuntu/)
+- Local: Ubuntu(20.04 and up): 윈도우에서 하고자 한다면 가상환경 사용 권장 [참고](https://ingu627.github.io/tips/install_ubuntu/) ⚠️ 용량 50GB 차지
 - Colab
 - Python ➡️ installation requirement의 경우 [MotionBert](https://github.com/Walter0807/MotionBERT) 참고할 것
 
