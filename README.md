@@ -33,7 +33,7 @@ WAK ent. motion data preprocessing pipeline
 
 
 ### Team Frontend
-- Python
+- Python(3.7 and up)
 - Kivy(GUI)
 - PyopenGL
   
